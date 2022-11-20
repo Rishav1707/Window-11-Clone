@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(../img/bg.jpeg); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+}
+
+video{
+    max-width: 100%;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 110;
+    display: flex;
+    justify-content: center;
+}
+
+.taskbarright{
+    position: absolute;
+    right: 0;
+    margin: 6px 0px;
+    height: 85%;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.icons{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.icons1 img{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.google{
+    font-size: small;
+    color: black;
+}
+
+.edge{
+    font-size: small;
+    color: black;
+    margin-left: 5px;
+}
+
+.icons2 img{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.bin{
+    font-size: small;
+    color: black;
+    margin-left: 8px;
+}
